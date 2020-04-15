@@ -1,9 +1,9 @@
 //Piramide 
 var simbolo = "* ";
 var linea = "";
-var i = prompt("Dame un numero del 1 al 10");
+var i = 1;
 
-for(i; i <= 10; i++){
+for(i; i <= 25; i++){
     linea += simbolo;
     document.write(linea + "<br>")
 }
